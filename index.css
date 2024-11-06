@@ -1,0 +1,227 @@
+/*estilo geral navbar*/
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: white;
+    height: 100ph;
+    overflow-x: hidden;
+}
+
+.navbar{
+    max-width: 1280px;
+
+    background-color: #fff;
+}
+
+
+.navbar .logo{
+    padding: 10px;
+}
+
+/*estilo geral navbar*/
+
+.bordanav{
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+
+header{
+    justify-content: flex-start;
+    display: flex;
+    padding: 10px 4%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+header > .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: black;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+    header nav ul li{
+        display: inline-block;
+        padding:  8px;
+    }
+
+    .imagemtopo{
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    
+
+    .search{
+        display: flex;
+        align-items: center;
+        border: 1px solid #cccccc;
+        background-color: #4d034d06;
+        height: 30px;
+        width: 500px;
+        margin: 10px auto;
+        border-radius: 20px;
+        padding: 5px 10px;
+        color: #4b4b4b;
+    }
+    #searchInput{
+        padding: 5px;
+        border: none;
+        background-color: transparent;
+        width: 100%;
+        outline: none;
+    }
+
+    .search label{
+        height: 20px;
+    }
+
+    .bandeira{
+        padding: 10px;
+    }
+
+
+    .bandeira p{
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        float: right;
+        padding: 3px;
+    }
+
+    .Atendimento{
+        padding: 10px;
+    }
+
+    .botaologin{
+        position: absolute;
+        top: 0;
+        right: -1%;
+        padding-top: 25px;
+    }
+
+   /*meio do site*/
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    right: 30px;
+    flex-wrap: wrap;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+}
+
+.container .estrela{
+    margin: 7px;
+    position: relative;
+    top: -5px;
+    height: 15px;
+}
+
+.container img{
+    margin: 2px;
+    border-radius: 2px;
+    max-width: 98%;
+}
+
+.container .Nomelocal{
+    font-size: 18px;
+    margin: 3px;
+    font-weight: bold;
+}
+
+.container .local{
+    margin: 4px;
+}
+
+.container .card1{
+    text-decoration: none;
+    border: 2px solid rgb(197, 193, 193);
+    width: 25%;
+}
+
+
+.container .card1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px  #7e7d7e;
+    transition: .5s;
+}
+
+.container .card2{
+    border:2px solid rgb(197, 193, 193);
+    width: 25%;
+}
+
+.container .card2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px  #7e7d7e;
+    transition: .5s;
+}
+
+.container .card3{
+    border:2px solid rgb(197, 193, 193);
+    width: 25%;
+}
+
+.container .card3:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px  #7e7d7e;
+    transition: .5s;
+}
+
+
+.container .card4{
+    border:2px solid rgb(197, 193, 193);
+}
+
+.container .card4:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #7e7d7e;
+    transition: .5s;
+    width: 25%;
+}
+
+.container .card5{
+    border:2px solid rgb(197, 193, 193);
+}
+
+.container .card5:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px  #7e7d7e;
+    transition: .5s;
+    width: 25%;
+}
+
+.container .card6{
+    border:2px solid rgb(197, 193, 193);
+}
+
+.container .card6:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px  #7e7d7e;
+    transition: .5s;
+    width: 25%;
+}
+
+
